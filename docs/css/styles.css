@@ -1274,3 +1274,9 @@ section {
   text-align: center;
   /* margin-left: 0; */
   left: 0; }
+
+.menu-button {
+  font-size: 30px !important;
+  margin-top: -250px;
+  font-family: "Playfair Display", serif;
+  width: 200px; }
