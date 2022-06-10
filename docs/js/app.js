@@ -143,7 +143,7 @@ const starters = JSON.parse(
         '{ "type":"food", "name":"Chicken fingers", "description":"Chicken file,egg, flour, bred crumbs, french fries, tartar sauce", "price":"200 " },' +
         '{ "type":"food", "name":"Chicken wings", "description":"Chicken wings, french fries, souce", "price":"200 " },' +
         '{ "type":"food", "name":"Onion rings", "description":"Onion, egg, flour, bread crumbs, french fries, sauce", "price":"100 " },' +
-        '{ "type":"food", "name":"Fried Cheese", "description":"Cheese, egg, flour, bread crumbs, sauce", "price":"80 Den" },' +
+        '{ "type":"food", "name":"Fried Cheese", "description":"Cheese, egg, flour, bread crumbs, sauce", "price":"80" },' +
         '{ "type":"food", "name":"Fried Cheese triangles", "description":"Cheese triangles, egg, flour, bread crumbs, sauce", "price":"110" },' +
 		'{ "type":"separator", "description":"SALADS" },' +
 		'{ "type":"food", "name":"Cezar Salad", "description":"Green salad, cucumber, tomatoes, cubeti, chicken file, dressing", "price":"240" },' +
