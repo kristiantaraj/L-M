@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
-    $(window).on('load scroll', function () {
-        var scrolled = $(this).scrollTop();
-        $('#title').css({
-            'transform': 'translate3d(0, ' + -(scrolled * 0.2) + 'px, 0)', // parallax (20% scroll rate)
-            'opacity': 1 - scrolled / 400 // fade out at 400px from top
-        });
-        $('#hero-vid').css('transform', 'translate3d(0, ' + -(scrolled * 0.25) + 'px, 0)'); // parallax (25% scroll rate)
-    });
+    // $(window).on('load scroll', function () {
+    //     var scrolled = $(this).scrollTop();
+    //     $('#title').css({
+    //         'transform': 'translate3d(0, ' + -(scrolled * 0.2) + 'px, 0)', // parallax (20% scroll rate)
+    //         'opacity': 1 - scrolled / 400 // fade out at 400px from top
+    //     });
+    //     $('#hero-vid').css('transform', 'translate3d(0, ' + -(scrolled * 0.25) + 'px, 0)'); // parallax (25% scroll rate)
+    // });
 
 
     $('.toggles p').click(function(){
@@ -46,19 +46,19 @@ $(document).ready(function(){
 
       setTimeout( $(".contain p").click(function() {
         $('.post').toggleClass('fade-in-image');
-      }), 1000);
+      }), 200);
 
     setTimeout(function thisDo() {
         $('.hide').removeClass('hide');
         $('.main').addClass('fade-in');
-    }, 3000);
+    }, 1500);
 
 
     function TimedEvent() {
         $('.loader').addClass('hide');
         $('.titled').addClass('hide');
       };
-      setTimeout(TimedEvent, 3000);
+      setTimeout(TimedEvent, 1500);
 
 (function($) { "use strict";
 
