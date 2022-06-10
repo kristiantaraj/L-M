@@ -1337,6 +1337,7 @@ section {
     background: linear-gradient(145deg, #e6e4da, #ffffff);
     box-shadow: 6px 6px 10px #cfcdc4, -6px -6px 10px #ffffff;
     font-family: "Rubik", sans-serif;
+    color: black !important;
     font-weight: 700;
     cursor: pointer;
   }
@@ -1359,6 +1360,7 @@ section {
     line-height: 50px;
     font-size: 20px;
     text-align: center;
+    color: black !important;
   }
 
   .navi-text {
@@ -1366,6 +1368,7 @@ section {
     line-height: 20px;
     text-align: center;
     font-size: 0.9em;
+    color: black !important;
     font-weight: 300;
   }
 
@@ -1573,6 +1576,7 @@ section {
   margin-top: -250px;
   font-family:"Playfair Display", serif;
   width: 200px;
+  color: black !important;
 }
 
 

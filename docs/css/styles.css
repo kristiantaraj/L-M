@@ -1096,6 +1096,7 @@ section {
     background: linear-gradient(145deg, #e6e4da, #ffffff);
     box-shadow: 6px 6px 10px #cfcdc4, -6px -6px 10px #ffffff;
     font-family: "Rubik", sans-serif;
+    color: black !important;
     font-weight: 700;
     cursor: pointer; }
   .menu-list #startersbutton .navi-icon {
@@ -1110,12 +1111,14 @@ section {
     height: 40px;
     line-height: 50px;
     font-size: 20px;
-    text-align: center; }
+    text-align: center;
+    color: black !important; }
   .menu-list .navi-text {
     height: 30px;
     line-height: 20px;
     text-align: center;
     font-size: 0.9em;
+    color: black !important;
     font-weight: 300; }
   .menu-list .menu {
     grid-column-start: 2;
@@ -1279,7 +1282,8 @@ section {
   font-size: 30px !important;
   margin-top: -250px;
   font-family: "Playfair Display", serif;
-  width: 200px; }
+  width: 200px;
+  color: black !important; }
 
 .modal-backdrop {
   display: none !important; }
